@@ -1,8 +1,8 @@
 //
 //  IntroLayer.h
-//  CcLabel
+//  test
 //
-//  Created by Ian Fan on 3/12/12.
+//  Created by Ian Fan on 1/12/12.
 //  Copyright __MyCompanyName__ 2012. All rights reserved.
 //
 

@@ -131,8 +131,12 @@
 		182DB59A166CC1A8005B4E4C /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 182DB599166CC1A8005B4E4C /* vec4.c */; };
 		182DB59F166CC1A8005B4E4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB59E166CC1A8005B4E4C /* main.m */; };
 		182DB5A2166CC1A8005B4E4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB5A1166CC1A8005B4E4C /* AppDelegate.m */; };
-		182DB5A5166CC1A8005B4E4C /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB5A4166CC1A8005B4E4C /* HelloWorldLayer.m */; };
-		182DB5A8166CC1A8005B4E4C /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB5A7166CC1A8005B4E4C /* IntroLayer.m */; };
+		182DB5B7166CC223005B4E4C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DB5B6166CC223005B4E4C /* Default-568h@2x.png */; };
+		182DB5BB166CC22A005B4E4C /* Cocos2dTemplateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB5BA166CC22A005B4E4C /* Cocos2dTemplateLayer.m */; };
+		182DB5BD166CC233005B4E4C /* outback.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 182DB5BC166CC233005B4E4C /* outback.ttf */; };
+		182DB5C3166CC245005B4E4C /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB5BF166CC245005B4E4C /* IntroLayer.m */; };
+		182DB5C4166CC245005B4E4C /* LabelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DB5C1166CC245005B4E4C /* LabelLayer.m */; };
+		182DB5C5166CC245005B4E4C /* addFontInInfoPlist.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DB5C2166CC245005B4E4C /* addFontInInfoPlist.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -394,10 +398,15 @@
 		182DB59E166CC1A8005B4E4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		182DB5A0166CC1A8005B4E4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		182DB5A1166CC1A8005B4E4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		182DB5A3166CC1A8005B4E4C /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		182DB5A4166CC1A8005B4E4C /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
-		182DB5A6166CC1A8005B4E4C /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		182DB5A7166CC1A8005B4E4C /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		182DB5B6166CC223005B4E4C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		182DB5B9166CC22A005B4E4C /* Cocos2dTemplateLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cocos2dTemplateLayer.h; sourceTree = "<group>"; };
+		182DB5BA166CC22A005B4E4C /* Cocos2dTemplateLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cocos2dTemplateLayer.m; sourceTree = "<group>"; };
+		182DB5BC166CC233005B4E4C /* outback.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = outback.ttf; sourceTree = "<group>"; };
+		182DB5BE166CC245005B4E4C /* IntroLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
+		182DB5BF166CC245005B4E4C /* IntroLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		182DB5C0166CC245005B4E4C /* LabelLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelLayer.h; sourceTree = "<group>"; };
+		182DB5C1166CC245005B4E4C /* LabelLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelLayer.m; sourceTree = "<group>"; };
+		182DB5C2166CC245005B4E4C /* addFontInInfoPlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addFontInInfoPlist.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,10 +467,13 @@
 			children = (
 				182DB5A0166CC1A8005B4E4C /* AppDelegate.h */,
 				182DB5A1166CC1A8005B4E4C /* AppDelegate.m */,
-				182DB5A3166CC1A8005B4E4C /* HelloWorldLayer.h */,
-				182DB5A4166CC1A8005B4E4C /* HelloWorldLayer.m */,
-				182DB5A6166CC1A8005B4E4C /* IntroLayer.h */,
-				182DB5A7166CC1A8005B4E4C /* IntroLayer.m */,
+				182DB5BE166CC245005B4E4C /* IntroLayer.h */,
+				182DB5BF166CC245005B4E4C /* IntroLayer.m */,
+				182DB5C0166CC245005B4E4C /* LabelLayer.h */,
+				182DB5C1166CC245005B4E4C /* LabelLayer.m */,
+				182DB5C2166CC245005B4E4C /* addFontInInfoPlist.png */,
+				182DB5C7166CC261005B4E4C /* Support */,
+				182DB5C6166CC24E005B4E4C /* MyResources */,
 				182DB429166CC1A5005B4E4C /* Resources */,
 				182DB443166CC1A5005B4E4C /* libs */,
 				182DB59C166CC1A8005B4E4C /* Supporting Files */,
@@ -472,6 +484,7 @@
 		182DB429166CC1A5005B4E4C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				182DB5B6166CC223005B4E4C /* Default-568h@2x.png */,
 				182DB42A166CC1A5005B4E4C /* Default.png */,
 				182DB42C166CC1A5005B4E4C /* Default-Landscape~ipad.png */,
 				182DB42E166CC1A5005B4E4C /* fps_images.png */,
@@ -832,6 +845,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		182DB5C6166CC24E005B4E4C /* MyResources */ = {
+			isa = PBXGroup;
+			children = (
+				182DB5BC166CC233005B4E4C /* outback.ttf */,
+			);
+			name = MyResources;
+			sourceTree = "<group>";
+		};
+		182DB5C7166CC261005B4E4C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				182DB5B9166CC22A005B4E4C /* Cocos2dTemplateLayer.h */,
+				182DB5BA166CC22A005B4E4C /* Cocos2dTemplateLayer.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -895,6 +925,9 @@
 				182DB43F166CC1A5005B4E4C /* Icon@2x.png in Resources */,
 				182DB442166CC1A5005B4E4C /* iTunesArtwork in Resources */,
 				182DB580166CC1A7005B4E4C /* ChangeLog in Resources */,
+				182DB5B7166CC223005B4E4C /* Default-568h@2x.png in Resources */,
+				182DB5BD166CC233005B4E4C /* outback.ttf in Resources */,
+				182DB5C5166CC245005B4E4C /* addFontInInfoPlist.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1007,8 +1040,9 @@
 				182DB59A166CC1A8005B4E4C /* vec4.c in Sources */,
 				182DB59F166CC1A8005B4E4C /* main.m in Sources */,
 				182DB5A2166CC1A8005B4E4C /* AppDelegate.m in Sources */,
-				182DB5A5166CC1A8005B4E4C /* HelloWorldLayer.m in Sources */,
-				182DB5A8166CC1A8005B4E4C /* IntroLayer.m in Sources */,
+				182DB5BB166CC22A005B4E4C /* Cocos2dTemplateLayer.m in Sources */,
+				182DB5C3166CC245005B4E4C /* IntroLayer.m in Sources */,
+				182DB5C4166CC245005B4E4C /* LabelLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1146,7 @@
 				182DB5AD166CC1A8005B4E4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
